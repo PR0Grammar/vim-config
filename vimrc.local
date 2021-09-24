@@ -17,8 +17,13 @@ nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-Left> :tabprevious<CR>
 set nocompatible              " be iMproved, required
 filetype off                  " required
-inoremap jj <Esc>
 filetype indent on
 :set autoindent
 :set cindent
 : colo gruvbox
+
+" Navigate with jkl; instead of hjkl
+noremap ; l
+noremap l j
+noremap j h  
+inoremap '' <Esc>
