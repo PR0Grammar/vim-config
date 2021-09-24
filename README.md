@@ -1,0 +1,1 @@
+current vimrc config + colors
